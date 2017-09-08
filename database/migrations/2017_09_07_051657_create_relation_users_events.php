@@ -35,9 +35,5 @@ class CreateRelationUsersEvents extends Migration
     public function down()
     {
         Schema::dropIfExists('users_events');
-        Schema::create('users_events', function (Blueprint $table) {
-            $table->increments('id');
-            $table->timestamps();
-        });
     }
 }
