@@ -94,6 +94,7 @@
              "endDate":"{{$event->end_time}}",
              "locale": {
                  //"format": "DD/MM/YYYY",
+                 "format": "YYYY-MM-DD",
                  "separator": " - ",
                  "applyLabel": "Aceptar",
                  "cancelLabel": "Cancelar",
