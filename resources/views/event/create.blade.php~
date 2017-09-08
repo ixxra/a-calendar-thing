@@ -1,0 +1,16 @@
+<script src="{{ url('_asset/js') }}/daterangepicker.js"></script>
+<script type="text/javascript">
+ $(function () {
+     $('input[name="time"]').daterangepicker({
+         "minDate": moment('<?php echo date('Y-m-d G')?>'),
+         "timePicker": true,
+         "timePicker24Hour": true,
+         "timePickerIncrement": 15,
+         "autoApply": true,
+         "locale": {
+             "format": "DD/MM/YYYY HH:mm:ss",
+             "separator": " - ",
+         }
+     });
+ });
+</script>

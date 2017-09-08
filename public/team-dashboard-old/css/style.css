@@ -1,0 +1,27 @@
+[data-balloon]:after {
+    content: attr(data-balloon);
+    background-color: black;
+    color: white;
+    white-space: pre;
+    display: inline-block;
+}
+
+
+.weekdays {
+    margin: 0;
+    padding: 10px 0;
+    background-color:#ddd;
+}
+
+
+.weekdays th {
+    /*display: inline-block;
+    width: 13.6%;*/
+    color: #666;
+    text-align: center;
+}
+
+body {font-family: Verdana, sans-serif;}
+
+
+
